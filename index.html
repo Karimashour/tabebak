@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>طبيبك</title>
+  </head>
+  <body>
+    <main>
+      <!-- التنقل -->
+      <nav>
+        <i class="fa-solid fa-stethoscope logo"></i>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#main" class="nav-link">الصفحة الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a href="#details" class="nav-link">اقسامنا</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link">تواصل معنا</a>
+          </li>
+        </ul>
+        <button class="cta dark">تسجيل دخول</button>
+        <i id="mobile-toggle" class="fa-solid fa-bars"></i>
+      </nav>
+      <!-- القسم الأساسي -->
+      <div class="hero" id="main">
+        <h1><span>طبيبك</span> خيارك الاول للتاكد من سلامتك</h1>
+        <div class="ctas">
+          <button class="cta purple">إعرف اكثر</button>
+          <button class="cta dark">صفحاتنا</button>
+        </div>
+      </div>
+      <!-- الميزات -->
+      <div class="features">
+        <h3>كل الاطباء التي تحتاجها</h3>
+        <h6>ردود جاهزة لتختار منها</h6>
+        <div class="features-list">
+          <div class="feature">
+            <div class="content">
+              <i class="fa-solid fa-bed-pulse"></i>
+              <h2>الدكتور محمد</h2>
+              <p>متخصص في طب الجراحه, تواصل معه الان ونتمني لك السلامه</p>
+            </div>
+
+            <img
+              src="./عملية استبدال شريان الاورطي الصاعد.jpg"
+              alt="purple website"
+            />
+          </div>
+          <div class="feature">
+            <div class="content">
+              <i class="fa-solid fa-eye"></i>
+              <h2>الدكتور اكرم</h2>
+              <p>متخصص في طب العيون, تواصل معه الان ونتمني لك السلامه</p>
+            </div>
+            <img src="./ophtamology.jpg" alt="purple website" />
+          </div>
+          <div class="feature">
+            <div class="content">
+              <i class="fa-solid fa-bone"></i>
+              <h2>الدكتور علي</h2>
+              <p>متخصص في طب العظام, تواصل معه الان ونتمني لك السلامه</p>
+            </div>
+            <img src="./Chiropractic.jpg" alt="purple website" />
+          </div>
+        </div>
+      </div>
+      <!-- تفاصيل -->
+      <div class="details" id="details">
+        <h2>إختر القسم</h2>
+        <h6>
+          توفّر جميع أقسامنا خدمات الرعاية الصحية وفق المعايير الدولية في مجموعة
+          متنوعة من التخصصات.
+        </h6>
+        <div class="details-list">
+          <div class="detail">
+            <i class="fa-solid fa-syringe"></i>
+            <h3>الأنف والأذن والحنجرة</h3>
+            <p>
+              يمتلك فريقنا الطبي المتخصص في قسم الأذن والأنف والحنج دراية جيدة
+              حول المتطلبات الفريدة للسكان المحليين مع مراعاة تنوعهم. و يضم
+              فريقنا نخبة من الأطباء مع أخصائيين للسمع الذين يركزون على تحسين
+              مستوى حياة المرضى من جميع الأعمار.
+            </p>
+          </div>
+          <div class="detail">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h3>تقويم العمود الفقري (الكايروبراكتك)</h3>
+            <p>
+              تسعى مستشفياتنا إلى توفير طرق متطورة لعلاج آلام العمود الفقري و
+              المفاصل بدون تدخلات جراحية، و هنا يأتي دور عيادة المعالجة اليدوية
+              و خدماتها المتعددة.
+            </p>
+          </div>
+          <div class="detail">
+            <i class="fa-solid fa-head-side-cough"></i>
+            <h3>جراحات السمنة</h3>
+            <p>
+              من مبادئنا في جراحة السمنة الإعداد الجيد للعملية الجراحية باتباع
+              بروتوكول خاص متعارف عليه دوليًا، يساعد مريض السمنة على الاستعداد
+              الجيد للجراحة من النواحي الطبية، الغذائية، النفسية و البدنية، لما
+              في ذلك من فوائد على سلامة المريض و نجاح العملية من حيث نزول الوزن
+              و ضمان صحة جيدة في نفس الوقت. حرصاً منا على تقديم عناية فائقة
+              لمرضانا يعمل فريق طبي متعدد الاختصاصات ذو كفاءة و خبرة عالية في طب
+              و جراحة السمنة.
+            </p>
+          </div>
+          <div class="detail">
+            <i class="fa-solid fa-capsules"></i>
+            <h3>جراحات العيون</h3>
+            <p>
+              نؤمن بإرضاء المريض بأسلوب متميز من خلال ما نقدمه من طرق العلاج
+              والوقاية والتعامل مع الأمراض المتعلقة بالعيون . يجمع فريقنا من
+              أطباء العيون بين التكنولوجيا الرائدة والخبرة الواسعة بمهارة عالية،
+              ليقدم لكم رعاية آمنة وفعالة في طب وجراحة العيون
+            </p>
+          </div>
+          <div class="detail">
+            <i class="fa-solid fa-disease"></i>
+            <h3>المختبر</h3>
+            <p>
+              تم اعتماد قسم المختبر من قبل الاعتماد العالمي للمختبرات من الجامعة
+              الأمريكية لعلم الأمراض .CAP يعد المختبر من أوائل المختبرات التي تم
+              اعتمادها لتقديم اختبار كوفيد-19 بواسطة PCR خلال جائحة كورونا.
+            </p>
+          </div>
+          <div class="detail">
+            <i class="fa-solid fa-crutch"></i>
+            <h3>العناية المركزة للأطفال PICU</h3>
+            <p>
+              العناية المركزة للأطفال تحتوي على 19 سريراً ومجهــزة بجميــع
+              أجهــزة التنفــس الصناعــي و الأجهــزة المعاونــة التــي يحتاجهــا
+              الطفــل في العنايــة المركــزة، كما أنها تدار بطاقــم طبــي
+              متخصــص ومؤهــل بإشراف استشاري أطفال عناية مركزة للتعامــل مــع
+              جميــع حــالات الطــوارئ من العلاج الطبيعي إلى الرعايــة مــا
+              بعــد الجراحــات وإصابــات حــوادث الطــرق و أطفال الاحتياجات
+              الخاصة.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h3>طبيبك</h3>
+      <p>تواصل معنا الآن</p>
+      <div class="icons">
+        <a href="#"><i class="icon fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="icon fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="icon fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
